@@ -1,0 +1,15 @@
+"LANL Earthquake Prediction」bronze"
+【Outline】地震を起こした際の波形データから何秒後に地震が発生するかを予想する
+【Feature】基礎統計量、尖度歪度、FFT
+【Learn】周波数変換、kernel公開特徴量の読解、過学習でshakeup
+
+"TalkingData AdTracking fraud detection"
+【Outline】ユーザーがモバイルアプリの広告をクリックした後ダウンロードするかどうかを予測する
+【Data】時系列、1.8億のデータ数の内90%はbot等によるダミー、カラム数は6個
+【Feature】count集計、click間経過時間、時間帯別click数、2カテゴリー同士の共起回数、NMF、PCA
+【Learn】datetimeモジュール、検証データは直近データを使う（過去データを予測しても意味ない）、group毎の特徴量生成、偏った分布ではsubsamplingも有効
+
+"Home Credit Default Risk"
+【Outline】個人のクレジット情報や応募情報などから、債務不履行になるかどうかを予測する
+【Feature】四則演算、count集計、one-hot encoding、
+【Learn】欠損値処理、groupby、pickle保存と読み込み
